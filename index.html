@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<title>University of Kentucky</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Olivia Stoll</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#menu" class="w3-bar-item w3-button">Maps</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1700px;min-width:500px" id="home">
+  <img class="w3-image" src="images/WillyT.jpg" alt="William T Young" width="1600" height="200">
+  <div class="w3-display-bottommiddle w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge w3-text-white">University of Kentucky</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="images/Southcampus.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About The University of Kentucky</h1><br>
+      <h5 class="w3-center">Since 1865</h5>
+      <p class="w3-large">The University of Kentucky was founded in 1865, the orignial focuse of the college was on Agriculture and Mechanical studies.I have attended UK since my freshman year, first living in Woodland Glenn 1, now Chellgren, South Campus was a major part of Uk where I spent the majority of my time. Centered on the map, as well as on the campus is William T. Young Library, this is actaully the location I picked for my first ever map my freshman year.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">South Campus is known for multiple dinning locations such as the 90, Wildcat Den, and now Chick-fil-A. It is home to 10+ dorm buildings and where you can find all of the Greek houses.</p>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Touring UK</h1><br>
+      <p class="w3-text-grey">This animation will take you around UK's South Campus with a focus on William T Young Library. It gives you a bird eye view of what this area looks like and the layout of the dorms, dinning hall, and library.</p><br>
+
+    </div>
+
+    <div class="w3-col l6 w3-padding-large">
+      <video width="800" height="800" controls>
+    <source src="images/TourUK.mp4" type="video/mp4">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">About the data</h1><br>
+      <p class="w3-text-grey">This map and animation was made through data collected by KyFromAbove.gov, after selecting two lidar datas. Then through Python I was able to run a notebook with a series of cells that preformed the functions necessary to create and produce the map.From the map I used the animation tool in ArcGIs Pro to create the animation of South Campus.</p><br>
+    </div>
+<div>
+  <div class="w3-row-padding">
+    <div class="w3-col l4 m4 w3-margin-bottom"> <!--see https://www.w3schools.com/w3css/w3css_grid.asp -->
+      <a href="page2.html" class="w3-hover-grayscale"> <!-- makes image into a link -->
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Woodland Glenn 1</div>
+        <img src="images/wg1.jpg" alt="House" width=400 height = 400>
+      </div>
+    </div>
+    <div class="w3-col l4 m4 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Woodland Glenn 4</div>
+        <img src="images/WG4.jpg" alt="House" width=400 height = 400>
+      </div>
+    </div>
+    <div class="w3-col l4 m4 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">The 90</div>
+        <img src="images/90.jfif" alt="House" width=400 height = 400>
+      </div>
+    </div>
+
+    <div>
+      <div class="w3-row-padding">
+        <div class="w3-col l4 m4 w3-margin-bottom"> <!--see https://www.w3schools.com/w3css/w3css_grid.asp -->
+          <a href="page2.html" class="w3-hover-grayscale"> <!-- makes image into a link -->
+          <div class="w3-display-container">
+            <div class="w3-display-topleft w3-black w3-padding">Front of Willy T</div>
+            <img src="images/lib.jpg" alt="House" width=400 height = 400>
+          </div>
+        </div>
+        <div class="w3-col l4 m4 w3-margin-bottom">
+          <div class="w3-display-container">
+            <div class="w3-display-topleft w3-black w3-padding">Willy T at night</div>
+            <img src="images/Willy.jpg" alt="House" width=400 height = 400>
+          </div>
+        </div>
+        <div class="w3-col l4 m4 w3-margin-bottom">
+          <div class="w3-display-container">
+            <div class="w3-display-topleft w3-black w3-padding">First visit to UK</div>
+            <img src="images/visit.jpg" alt="House" width=400 height = 400>
+          </div>
+        </div>
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
+</html>
